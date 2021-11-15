@@ -27,6 +27,13 @@ async function main() {
   await token.deployed();
 
   console.log('Token deployed to:', token.address);
+
+  const OGAToken = await hre.ethers.getContractFactory('OGAToken');
+  const ogaToken = await OGAToken.deploy();
+
+  await ogaToken.deployed();
+
+  console.log('OGAToken deployed to:', ogaToken.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere

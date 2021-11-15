@@ -81,6 +81,7 @@ function App() {
       console.log(
         `${amount} coins transferred to ${userAccount} successfully!`,
       );
+      getBalance();
     }
   }
 
