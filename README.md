@@ -1,4 +1,4 @@
-# Simple DAPP Project that uses Hardhat, React and Ropsten test Network.
+# Simple Ethereum DApp Project that uses Hardhat, React and Ropsten test Network.
 
 This project demonstrates a basic ethereum dapp,
 Created a Greeting contract and implemented with React & Web3 frontend
